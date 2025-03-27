@@ -1,5 +1,8 @@
 
 # This is register this service to the service Registry as a client
+spring:
+  application:
+    name: Config-Default-GitHub
 eureka:
   client:
     service-url:
